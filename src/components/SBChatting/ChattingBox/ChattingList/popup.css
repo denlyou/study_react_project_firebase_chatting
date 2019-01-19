@@ -1,0 +1,44 @@
+#ChatList.popup {
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    background-color: white;
+    width: calc( 100% - 256px );
+    height: 90vh;
+}
+
+#ChatList.popup .title {
+    box-sizing: border-box;
+    padding: 0 8px;
+    color: black;
+    font-weight: bold;
+    font-size: 10pt;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #ccc;
+}
+
+#ChatList.popup .message {
+    box-sizing: border-box;
+    padding: 4px;
+    height: calc( 90vh - 72px );
+}
+
+#ChatList.popup .form {
+    box-sizing: border-box;
+    margin: 4px;
+    padding: 2px 4px 0 4px;
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+#ChatList.popup .form input{
+    border: none;
+    padding: none;
+    margin-right: 4px;
+    width: calc(100% - 72px);
+}
+#ChatList.popup .form button{
+    width: 64px;
+}

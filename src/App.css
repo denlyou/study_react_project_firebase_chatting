@@ -1,0 +1,13 @@
+.App {
+  margin: 50px;
+  min-height: 200vh;
+}
+
+#FRDB_RULE {
+  padding: 8px;
+  background-color: black;
+  line-height: 1.5em;
+}
+.Links {
+  font-size: 1.2em;
+}

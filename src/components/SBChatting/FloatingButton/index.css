@@ -1,0 +1,20 @@
+#FloatingButton {
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    color: white;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    font-size: 1.5em;
+    background: rgba(255, 255, 255, .3);
+}
+#FloatingButton:hover {
+	background: rgba(255, 255, 255, .8);
+}
+#FloatingButton.active { 
+    
+}
